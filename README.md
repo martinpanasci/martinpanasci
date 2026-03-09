@@ -137,5 +137,6 @@ I'm particularly interested in working on problems related to:
 💻 Full Stack Developer / Technical Lead  
 🌎 English B2/C1
 
-🔗 LinkedIn  
-```
+🔗 LinkedIn: https://www.linkedin.com/in/martin-panasci/  
+
+---
