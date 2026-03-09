@@ -1,69 +1,141 @@
-# Hi, I'm Martin Panasci
+# 👋 Hi, I'm Martin Panasci
 
-Full Stack Developer focused on building real-world products and scalable backend systems.
+Full Stack Developer focused on building **real-world products and scalable backend systems**.
 
-Currently working as a Technical Lead in a startup environment, designing system architecture and delivering core product features using modern JavaScript/TypeScript stacks.
+Currently working as a **Technical Lead in a startup environment**, designing system architecture and delivering core product features using modern **JavaScript / TypeScript stacks**.
 
-## Tech Stack
+I enjoy working on **backend systems, architecture, and cloud infrastructure**, ensuring products remain **consistent, maintainable, and scalable as they grow.**
 
-**Backend**
+---
+
+# 🧠 Tech Stack
+
+### ⚙️ Backend
 - Node.js
 - NestJS
-- PostgreSQL
-- Prisma
+- Express.js
 - REST APIs
 - Authentication (JWT)
+- BullMQ / background workers
 
-**Frontend**
+### 🗄 Databases
+- PostgreSQL
+- MySQL
+- Prisma ORM
+- Redis
+
+### 🎨 Frontend
 - React
 - Next.js
 - Tailwind CSS
 
-**Cloud / DevOps**
-- AWS (ECS, S3, Amplify, AppRunner, IAM, RDS/Aurora)
-- Docker (basic)
-- CI/CD workflows
-
-## What I Do
-
-I work across the entire stack, but my main focus is backend systems and architecture.
-
-My work includes:
-
-- Designing scalable system architecture
-- Building backend services and APIs
-- Defining project structures that allow teams to develop features in parallel
-- Detecting and correcting architectural and database issues early
-- Delivering product features from concept to deployment
-
-## Current Work
-
-**Technical Lead / Full Stack Developer — Tu Punto**
-
-Early-stage marketplace startup where I:
-
-- Designed the system architecture using NestJS, PostgreSQL (Prisma), and Next.js
-- Led development of core features such as authentication, product catalog, and checkout flows
-- Migrated infrastructure from App Runner to ECS (Fargate)
-- Introduced Infrastructure as Code using AWS CDK
-- Built a fully isolated staging environment for safe testing
-- Implemented direct S3 uploads using pre-signed URLs
-
-## Public Projects
-
-Some of my work is in private repositories because it was built for startups and client projects.
-
-Public repositories here represent smaller projects and experiments with different technologies.
-
-## Currently Interested In
-
-Backend and Full Stack roles where I can contribute hands-on while continuing to grow in:
-
-- System design
-- Backend architecture
-- Scalability and cloud infrastructure
+### ☁️ Cloud & DevOps
+- AWS ECS (Fargate)
+- AWS CDK (Infrastructure as Code)
+- AWS RDS
+- AWS ElastiCache (Redis)
+- AWS S3
+- AWS CloudFront
+- AWS Amplify
+- AWS IAM
+- AWS CloudWatch
+- AWS Secrets Manager
+- Docker
+- CI/CD (GitHub Actions)
 
 ---
 
+# 🏗 What I Do
+
+I work across the entire stack, but my main focus is **backend systems and system architecture**.
+
+My work includes:
+
+- Designing scalable **system architectures**
+- Building backend services and APIs
+- Defining project structures that allow teams to **develop features in parallel**
+- Detecting and correcting **architectural and database issues early**
+- Delivering features **from concept to production**
+
+---
+
+# 🚀 Current Work
+
+### Technical Lead — Tu Punto (Marketplace Platform)
+
+Early-stage startup where I work as **Technical Lead and hands-on Full Stack Developer**, owning both **system architecture and feature delivery**.
+
+Key contributions:
+
+- Designed system architecture using **NestJS, PostgreSQL (Prisma), and Next.js**
+- Led development of core product features:
+  - authentication
+  - product catalog
+  - checkout flows
+- Migrated infrastructure from **App Runner → ECS Fargate**
+- Introduced **Infrastructure as Code using AWS CDK**
+- Built a **fully isolated staging environment**
+- Implemented **direct S3 uploads using presigned URLs**
+- Designed async processing using **BullMQ workers**
+- Improved deployment workflows and system stability
+
+Infrastructure architecture includes:
+
+```
+
+User
+↓
+Amplify (Next.js Frontend)
+↓
+CloudFront
+↓
+Application Load Balancer
+↓
+ECS Fargate
+├ API Service (NestJS)
+└ Worker Service (BullMQ)
+↓
+RDS PostgreSQL
+↓
+Redis (ElastiCache)
+↓
+S3
+
+```
+
+---
+
+# 📦 Public Projects
+
+Some of my work is in **private repositories** because it was built for **startup products and client projects**.
+
+Public repositories here represent **smaller systems, experiments, or personal tools**.
+
+Examples include:
+
+- URL Shortener service
+- Fitness SaaS experiments
+- Portfolio projects
+
+---
+
+# 🎯 Areas of Interest
+
+I'm particularly interested in working on problems related to:
+
+- System architecture
+- Backend scalability
+- Cloud infrastructure
+- Distributed systems
+- Product-oriented development
+
+---
+
+# 📍 About Me
+
 📍 Mar del Plata, Argentina  
-🔗 LinkedIn: https://linkedin.com/in/martin-panasci
+💻 Full Stack Developer / Technical Lead  
+🌎 English B2/C1
+
+🔗 LinkedIn  
+```
